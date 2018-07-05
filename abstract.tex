@@ -1,0 +1,32 @@
+\begin{acknowledgements}
+Θα ήθελα να ευχαριστήσω θερμά τους ανθρώπους που συνέβαλλαν ενεργά στη διεκπεραίωση αυτής της διπλωματικής. Τον επιβλέποντα καθηγητή μου κ. Λουκά Πέτρου για την εμπιστοσύνη που μου έδειξε και την στήριξή του καθ᾽ όλη τη διάρκεια της συνεργασίας μας όπως και τον επιβλέποντα διδακτορικό Υπ. Δρ. Παναγιώτη Μουσουλιώτη για την καθημερινή υποστήριξή του και τις συμβουλές του σε όλα τα στάδια της διπλωματικής. 
+
+Θα ήθελα επίσης να ευχαριστήσω τον Υπ. Δρ. Κωνσταντίνο Παναγιώτου για τη πολύτιμη βοήθειά του και τις συμβουλές του στο πρακτικό κομμάτι της διπλωματικής όπως και τον Μεταδιδακτορικό Ερευνητή του τμήματος Εμμανουήλ Τσαρδούλια. 
+
+Δε θα μπορούσα να μην ευχαριστήσω τον κ. καθηγητή Πιτσιάνη Νικόλαο για τη διαμόρφωση του τρόπου σκέψης μου όσον αφορά την παραλληλοποίηση και την αποδοτικότητα των αλγορίθμων, όπως και τους δασκάλους μου Αραμπατζή Γεώργιο και Δρ. Τιάκα Ελευθέριο.
+
+Το θερμότερο Ευχαριστώ το οφείλω στους γονείς μου Στυλιανό και Παρασκευή και στα αδέρφια μου Παναγιώτη και Ανέστη στους οποίους στηρίχθηκα τόσο στην εκπόνηση αυτής της διπλωματικής όσο και στις σπουδές μου. Τέλος, είμαι ευγνώμων σε συγγενείς, φίλους και γνωστούς για την όποια συνεισφορά τους τόσο στην προσωπική όσο και στην επαγγελματική μου πορεία.
+
+\end{acknowledgements}
+
+\begin{abstract}
+Στην παρούσα διπλωματική εργασία μελετήθηκε η τεχνική της μετάδοσης γνώσης στα συνελικτικά δίκτυα εντοπισμού αντικειμένων πραγματικού χρόνου. Αναλυτικότερα, εξετάζεται η γενικότητα ήδη γνωστών πειραμάτων απλών συνελικτικών νευρωνικών δικτύων στα δίκτυα εντοπισμού αντικειμένων πραγματικού χρόνου και κατά πόσο το φαινόμενο της συν-προσαρμογής είναι έντονο σε αυτά. Για το σκοπό των πειραμάτων υλοποιήθηκε εξ-αρχής η εκπαίδευση του νευρωνικού δικτύου SqueezeDet με ταχύτερη ροή και επεξεργασία δεδομένων δίνοντας συνολική επιτάχυνση $1.8$ φορές με τη κατασκευή ενός καινούριου και προτεινόμενου αλγορίθμου. Αρχικά, εξετάζονται τα πιο διαδεδομένα δίκτυα εντοπισμού αντικειμένων και οι βασικές αρχές σχεδίασής τους. Έπειτα, γίνεται μία ανασκόπηση των τεχνικών μετάδοσης γνώσης από όπου προκύπτουν και οι τελικοί πειραματισμοί μεταφερσιμότητας παραμέτρων του δικτύου SqueezeDet, μαζί με τη μελέτη του φαινομένου της συν-προσαρμογής. Οι πειραματισμοί αυτοί δείχνουν κυρίως κατά πόσο εύθραυστα μπορεί να είναι τα επίπεδα ενός νευρωνικού δικτύου στο φαινόμενο της συν-προσαρμογής. Επιπρόσθετα, παρουσιάζεται η βασική μεθοδολογία σχεδίασης του ταχύτερου τρόπου εκπαίδευσης μαζί με την έκθεση ενός καινούριου παραλλήλου αλγορίθμου αντιστοίχησης περιοχών ενδιαφέροντος και οι λεπτομέρειες υλικού και λογισμικού της υλοποίησης. Τέλος, μέσα από τα παραδείγματα μη επιτυχημένων μετεκπαιδεύσεων δίνονται οδηγίες για τους τρόπους με τους οποίους μπορεί να επιτευχθεί μία πετυχημένη μετεκπαίδευση καθώς και οι αρχικές συνθήκες οι οποίες θα πρέπει να ισχύουν πριν τη μετεκπαίδευση.
+
+   \begin{keywords}
+   Τεχνητή νοημοσύνη, Μηχανική μάθηση, Βαθιά μηχανική μάθηση, Υπολογιστική τεχνητή νοημοσύνη, Μετάδοση γνώσης, Νευρωνικά δίκτυα, Συνελικτικά νευρωνικά δίκτυα, Νευρωνικά δίκτυα εντοπισμού αντικειμένων, Ενσωματωμένα συστήματα, Παραλληλοποίηση αλγορίθμων
+   \end{keywords}
+\end{abstract}
+
+
+
+\begin{abstracteng}
+This thesis examines the transfer learning technique of real time convolutional neural networks for detection in embedded systems. More specifically, the generality of convolutional neural network experiments for transferability is studied in the case of object detection tasks. The experiments concluded for this tasks using real time neural networks lacks the study of co-adaptation which is a well studied phenomenon in recognition tasks for non-real time neural networks. For these experimentations a new training implementation of the SqueezeDet neural network is proposed with faster pipeline and data processing, achieving $1.8$ times total acceleration comparing to the initial implementation. This achievement is a result of a new parallel algorithm for matching regions of interest between the ground truth and the predicted ones. First, there is a mention to the essential detection convolutional neural networks that compose the state of the art and their design insights. Afterwards, a review of the transfer learning techniques follows, where the final experiment of the SqueezeDet weights transferability is derived, along with the study of co-adaptation. The experiments indicate the fragility of a neural network to co-adaptation. Furthermore, a key methodology for faster detection network training is presented and the parallel algorithm for matching the regions of interest is analyzed. Accompanying the speedup representation, the details of software structure and hardware are provided. At last, through failed examples of transfer learning there are recommendations about avoiding common mistakes and the required initial conditions for a successful transfer learning.
+
+
+  \begin{keywordseng}
+  Artificial intelligence, Machine learning, Deep learning, Computational artificial intelligence, Transfer learning, Neural networks, Convolutional neural networks, Detection neural networks, Embedded systems, Algorithm parallelization
+  \end{keywordseng}
+
+\end{abstracteng}
+
+

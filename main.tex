@@ -1,0 +1,89 @@
+\documentclass[11pt]{dblab-thesis}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathabx}
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+\usepackage{bbm}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{fontspec}
+\usepackage{wasysym}
+\usepackage{epsfig}
+\usepackage{latexsym}
+\usepackage{index}
+\usepackage{forest}
+\usepackage{color}
+\usepackage{url}
+\usepackage{hyperref}
+{\renewcommand{\bibname}{References}} 
+\usepackage[style=numeric,sorting=none]{biblatex}
+\setmainfont{CMU Serif}
+\setsansfont{CMU Sans Serif}
+\newfontfamily{\greekfont}{CMU Serif}
+\newfontfamily{\greekfontsf}{CMU Sans Serif}
+
+\addbibresource{references.bib}  
+
+\usepackage{nomencl}
+
+\makenomenclature
+\renewcommand{\nomname}{Πίνακας Ακρωνυμίων}
+\renewcommand{\nompreamble}{Παρακάτω βρίσκεται η λίστα εννοιών που συναντιούνται συχνά στο κείμενο.}
+\renewcommand{\listalgorithmname}{Αλγόριθμοι}
+\renewcommand\UrlFont{\ttfamilylatin}
+\floatname{algorithm}{Αλγόριθμος}
+
+\definecolor{SeaGreen}{HTML}{2E8B57}
+\definecolor{myGreen}{HTML}{66CC00}
+\definecolor{Maroon}{HTML}{800000}
+\definecolor{myGrey}{HTML}{A0A0A0}
+\usepackage[nottoc]{tocbibind}
+
+\title{Μετάδοση γνώσης βαθιών συνελικτικών νευρωνικών δικτύων για εντοπισμό αντικειμένων σε ενσωματωμένα συστήματα πραγματικού χρόνου}
+\author{Ιωάννης Αθανασιάδης}
+\supervisor{Λουκάς Πέτρου}
+\TRnumber{ΕΣΒΓΔ-ΔΙΠΛ-2003-07}
+\epitropiF{Γεώργιος Χασάπης}
+\epitropiS{Ανδρέας Συμεωνίδης}
+
+
+\DeclareMathAlphabet{\pazocal}{OMS}{zplm}{m}{n}
+\DeclareRobustCommand{\bbone}{\text{\usefont{U}{bbold}{m}{n}1}}
+\DeclareMathOperator{\EX}{\mathbb{E}}% expected value
+
+\definecolor{LstItemCol}{HTML}{3333FF}
+
+
+\begin{document}
+
+\maketitle
+
+\mainmatter
+\include{abstract}
+\tableofcontents
+\listoffigures
+\listoftables
+\include{glossary}
+
+
+\include{intro} % started
+\include{detCNNs} % do corrections
+\include{TransferLearning} % Waiting for corrections
+\include{Experiments} % writting
+\include{acceleration}
+\include{Architecture} % DONE
+\include{Futures} % Not started yet
+\include{JStry}
+% \include{transferSystem}
+% \include{LinearTransformationInvariance.tex}
+% \include{Appendix.tex}
+
+
+
+% \bibliographystyle{hellas}
+\printbibliography
+
+
+\end{document}
